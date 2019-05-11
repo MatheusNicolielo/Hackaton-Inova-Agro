@@ -61,7 +61,7 @@ body{
 }
 
 .bg{
-    background-image: url(../img/fundo.jpg);
+    background-image: url("https://marvel-live.freetls.fastly.net/serve/2019/5/c0d53d566242ffbe5e427f1a5ce1db.png?quality=95&fake=.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -319,4 +319,41 @@ input[type="text"] {
 
 .centro{
     text-align: center;
+}
+
+.direita{
+    text-align: right;
+}
+
+.imagem_lista{
+    border: #000;
+    height: 80px;
+    width: 80px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.titulo_produto{
+    font-size: 12px;
+    font-style: bold;
+    text-align: right;
+}
+
+.descricao_produto{
+    text-align: left;
+    font-size: 12px;
+}
+
+.descricao_produto_meio{
+    text-align: center;
+    font-size: 12px;
+}
+
+.forma_pagamento{
+    height: 100px;
+    width: 100px;
 }
